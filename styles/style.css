@@ -1,0 +1,33 @@
+
+.banner-section {
+    background-image:url('../image/Banner.png') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    margin: 0 auto;
+   
+   
+}
+.banner-inner {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.banner-description, .banner-title {
+    text-align: center;
+    color: #FFF;
+}
+.banner-description {
+    font-size: 32px;
+    font-weight: 400;
+}
+.banner-title {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
