@@ -79,7 +79,7 @@ body{
     width: 100%;
 }
 .image-section {
-    background-image: url('/image/Vectorrr.png');
+    background-image: url('../image/Vectorrr.png');
     background-repeat: no-repeat;
     background-position: center;
     width: 1320px;
