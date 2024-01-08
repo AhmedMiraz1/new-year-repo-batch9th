@@ -155,6 +155,76 @@ body{
     font-size: 20px;
     font-weight: 700;
     border: 0;
+
+
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1600px;
+    height: 700px;
+    margin: 100px auto;
+    background: #FFF;
+}
+
+.container div {
+    flex: 1 1 0%;
     
+}
+
+.formate-text {
+    color: #F00;
+    text-align: justify;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 16px;
+
+}
+.formate-head {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding-right:  65px; 
+    padding-bottom: 22px;
+}
+.formate-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+    width: 390px;
+}
+.image-circle-line {
+    width: 463px;
+    height: 463px;
+    border-radius: 364px;
+    margin: auto;
+    border: 15px solid red;
+    padding: 25px;
+}
+.text-heading {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 16px;
+   
+}
+.new-year-text {
+    padding-left: 100px;
+}
+.new-year-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+    width: 276px;
+}
+.new-year-image {
+    width: 140px;
+    height: 140px;
+    margin-top: 43px;
 
 }
