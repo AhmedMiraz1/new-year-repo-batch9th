@@ -99,6 +99,7 @@ body {
   margin: auto;
   margin-top: 120px;
   color: white;
+  border-radius: 16px;
 }
 .image-icon-title {
   color: #fff;
@@ -253,6 +254,10 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 32px;
+  width: 1000px;
+  margin: auto;
+  margin-bottom: 64px;
+  margin-top: 16px;
 }
 .price-section {
   width: 1320px;
@@ -322,3 +327,133 @@ body {
   gap: 24px;
 }
 
+/* subscribe section  */
+
+.subscribe-section {
+  text-align: center;
+  margin-top: 120px;
+  width: 1320px;
+  height: 616px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subscribe-image {
+  margin: 80px auto 40px auto;
+  width: 150px;
+  height: 150px;
+}
+
+.subscribe-head {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+
+.subscribe-description {
+  color: rgba(7, 2, 17, 0.60);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; 
+  margin-bottom: 48px;
+}
+
+
+.email-btn {
+  width: 648px;
+  height: 72px;
+  border-radius: 50px 0 0 50px;
+  background: #FFF;
+  color: rgba(7, 2, 17, 0.30);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+
+
+}
+.submit-btn {
+  width: 210px;
+  height: 72px;
+  border-radius: 0px 50px 50px 0px;
+  background: #F00;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border: 0;
+}
+
+.footer-section {
+  background: #070211;
+  color:white;
+  width: 100%;
+  font-family: Inter;
+  font-size: large;
+  margin-top: 120px;
+}
+
+.footer-inner {
+  width: 1320px;
+  margin: auto;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 120px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.footer-top p {
+  line-height: 40px;
+}
+
+.contact {
+  line-height: 30px;
+}
+
+.contact div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-middle {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.footer-middle img {
+  width: 64px;
+  height: 64px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 120px;
+}
